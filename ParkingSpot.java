@@ -1,4 +1,6 @@
 public class ParkingSpot {
+    // OOP Concept: Encapsulation & Immutability
+    // 'private' hides the data, 'final' ensures it cannot be changed after the constructor runs
     private final String level;
     private final int spotNumber;
     private final String zone;

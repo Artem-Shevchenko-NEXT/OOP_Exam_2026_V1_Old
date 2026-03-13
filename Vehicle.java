@@ -15,6 +15,9 @@ public class Vehicle {
         return brand;
     }
 
+    // OOP Concept: Overriding
+    // Replaces the default Object.toString() (which prints memory addresses)
+    // with a meaningful representation of the object's data.
     @Override
     public String toString() {
         return "Vehicle{" +
